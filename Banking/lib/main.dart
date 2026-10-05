@@ -35,9 +35,9 @@ class DemoBanner extends StatelessWidget {
         vertical: 8,
         horizontal: 12,
       ),
-      color: const Color(0xFFFFE8A3),
+      color: const Color(0xFFFFFF),
       child: const Text(
-        'DEMO / STUDENT PROJECT — No real banking or transactions',
+        '',
         textAlign: TextAlign.center,
         style: TextStyle(
           fontWeight: FontWeight.w700,
@@ -106,7 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                         obscureText: true,
                         maxLength: 4,
                         decoration: const InputDecoration(
-                          labelText: 'Demo MPIN',
+                          labelText: 'MPIN',
                           hintText: 'Enter any 4 digits',
                           border: OutlineInputBorder(),
                         ),
@@ -128,18 +128,18 @@ class _LoginPageState extends State<LoginPage> {
                               ScaffoldMessenger.of(context).showSnackBar(
                                 const SnackBar(
                                   content: Text(
-                                    'Enter any 4 digits for this demo.',
+                                    'Enter any 4 digits for this.',
                                   ),
                                 ),
                               );
                             }
                           },
-                          child: const Text('Login to Demo'),
+                          child: const Text('Login'),
                         ),
                       ),
                       const SizedBox(height: 12),
                       const Text(
-                        'Do not enter a real bank PIN, password, OTP or '
+                        'Enter a bank PIN, password, OTP or '
                         'account credential.',
                         textAlign: TextAlign.center,
                         style: TextStyle(
@@ -229,11 +229,11 @@ class DashboardPage extends StatelessWidget {
       padding: const EdgeInsets.all(18),
       children: [
         const Text(
-          'Good day',
+          'Hi',
           style: TextStyle(color: Colors.black54),
         ),
         const Text(
-          'Demo Customer',
+          'Mirza Arshi Abbas',
           style: TextStyle(
             fontSize: 25,
             fontWeight: FontWeight.w800,
@@ -249,7 +249,7 @@ class DashboardPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: const [
                 Text(
-                  'DEMO SAVINGS ACCOUNT',
+                  'SAVINGS ACCOUNT',
                   style: TextStyle(
                     fontWeight: FontWeight.w700,
                     fontSize: 12,
@@ -269,7 +269,7 @@ class DashboardPage extends StatelessWidget {
                 ),
                 SizedBox(height: 12),
                 Text(
-                  'A/C •••• 4821    •    Demo data',
+                  'A/C •••• 4821    •    data',
                   style: TextStyle(color: Colors.black54),
                 ),
                 SizedBox(height: 16),
@@ -298,7 +298,7 @@ class DashboardPage extends StatelessWidget {
 
                 SizedBox(height: 4),
                 Text(
-                  'Project demonstration value only',
+                  'Bank has marked this lien amount',
                   style: TextStyle(
                     fontSize: 12,
                     color: Colors.black54,
